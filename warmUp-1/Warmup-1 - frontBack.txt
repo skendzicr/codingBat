@@ -1,0 +1,13 @@
+public String frontBack(String str) {
+  if(str.length()>1)
+  {
+  char[] chars = str.toCharArray();
+  char prvi = chars[0];
+  char poslednji = chars[chars.length-1];
+  chars[0] = poslednji;
+  chars[chars.length-1] = prvi;
+  str = new String(chars);
+  return str;
+  }
+  return str;
+}
