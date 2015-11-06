@@ -1,0 +1,18 @@
+public String endUp(String str) {
+       
+       String front;
+       String back;
+       
+       if(str.length()<3)
+       {
+       return str.toUpperCase();
+       }
+      
+       else
+       {
+       int duzina = str.length();
+       front = str.substring(0,duzina-3);
+       back = str.substring(duzina-3,duzina).toUpperCase();
+       } 
+       return front+back; 
+}
