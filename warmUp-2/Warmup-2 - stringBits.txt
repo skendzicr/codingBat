@@ -1,0 +1,10 @@
+public String stringBits(String str) {
+  int other = 2;
+  String s = "";
+  for( int i = 0; i<str.length();)
+  {
+  s += str.charAt(i);
+  i += other;
+  }
+  return s;
+}

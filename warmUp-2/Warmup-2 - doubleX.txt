@@ -1,0 +1,9 @@
+boolean doubleX(String str) {
+  int prviX = str.indexOf('x');
+  if (prviX < str.length()-1)
+  {
+  return str.charAt(prviX+1)=='x';
+  }
+  return false;
+  
+}
