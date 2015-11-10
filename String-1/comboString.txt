@@ -1,0 +1,15 @@
+public String comboString(String a, String b) {
+  String azi = a;
+  String buki = b;
+  String temp = "";
+  
+  if(b.length()>a.length())
+  {
+  temp = azi;
+  azi = buki;
+  buki = temp;
+  }
+  return buki + azi + buki;
+  
+  
+}

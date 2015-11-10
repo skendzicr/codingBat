@@ -1,0 +1,7 @@
+public String extraEnd(String str) {
+
+  String extraEnd = (str.substring(str.length()-2, str.length()));
+  extraEnd += extraEnd + extraEnd;
+  return extraEnd;
+  
+}
