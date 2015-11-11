@@ -1,0 +1,4 @@
+public boolean sameFirstLast(int[] nums) {
+  int[] niz = nums;
+  return(niz.length >= 1 && niz[0]==niz[niz.length-1]);
+}

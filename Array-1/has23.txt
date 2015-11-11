@@ -1,0 +1,11 @@
+public boolean has23(int[] nums) {
+  boolean has23 = false;
+  for(int i:nums)
+  {
+  if(i==2 || i == 3)
+  {
+  has23 = true;
+  }
+  }
+  return has23;
+}

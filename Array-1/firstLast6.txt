@@ -1,0 +1,7 @@
+public boolean firstLast6(int[] nums) {
+  int[] niz = nums;
+  
+  return(niz[0] == 6 || niz[niz.length-1] == 6);
+  
+  
+}

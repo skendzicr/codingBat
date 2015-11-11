@@ -1,0 +1,12 @@
+public boolean no23(int[] nums) {
+boolean  no23 = true;
+
+   for(int i:nums)
+   {
+   if(i == 2 || i ==3)
+   {
+   no23 = false;
+   }
+   }
+   return no23;
+}

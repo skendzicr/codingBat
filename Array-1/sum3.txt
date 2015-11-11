@@ -1,0 +1,19 @@
+public int sum3(int[] nums) {
+  int sum3 = 0; 
+  for(int i : nums)
+  {
+  sum3 += i;
+  }
+  return sum3;
+}
+
+
+
+public int sum3(int[] nums) {
+  int sum3=0;
+  for(int i = 0; i<3; i++)
+  {
+  sum3 += nums[i];
+  }
+  return sum3;
+}
